@@ -12,7 +12,7 @@ namespace Task1.Controllers
         {
             _logger = logger;
         }
-
+        [CountUsers]
         public IActionResult Index()
         {
             return View();
